@@ -1,0 +1,9 @@
+<div>
+ <?php
+
+ echo"<h1>".$item["titre"]."</h1>" .'<br>';
+    echo "<img src='".$item["image"]."'>";
+    echo"<p>".$item["description"]."</p>" .'<br>';
+    echo"<p>".$item["prix"] ."€</p>" ;
+?>
+</div>
